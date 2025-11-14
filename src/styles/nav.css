@@ -1,0 +1,43 @@
+.nav-1 {
+    background-color: var(--secondary-color);
+    text-align: right;
+    padding: 5px;
+    padding-right: 40px;
+}
+
+.nav-1 img {
+    width: 14px;
+    height: auto;
+}
+
+.nav-1__a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-2 {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 30px;
+}
+
+.nav-2 img {
+    width: 140px;
+    height: auto;
+}
+
+.nav-2__a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-3 img {
+    width: 100%;
+    height: auto;
+}

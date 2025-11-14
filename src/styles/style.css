@@ -2,6 +2,12 @@
 
 :root {
     font-family: 'Montserrat', sans-serif;
-    --primary-color: #EA6C04;
-    --secondary-color: #2D2D2D;
+    --primary-color: #FF8500;
+    --secondary-color: #043444;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
 }
