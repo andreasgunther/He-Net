@@ -41,3 +41,27 @@ body {
     margin-top: 3rem;
     padding-right: 2rem;
 }
+
+@media screen and (max-width: 1480px) {
+    .app {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .app__column-1,
+    .app__column-2 {
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .app__column-1 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .app__column-2 img {
+        padding-right: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+}
