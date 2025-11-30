@@ -406,3 +406,7 @@ body {
   color: var(--tertiary-color);
   font-weight: 700;
 }
+
+.section__eight{
+  padding: 5rem;
+}
