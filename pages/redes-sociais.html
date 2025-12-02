@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He-Net</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/multiple/redes-sociais.css">
+    <link rel="stylesheet" href="/src/styles/nav.css">
+    <link rel="stylesheet" href="/src/styles/planoswifi.css">
+    <link rel="stylesheet" href="/src/styles/atendimento.css">
+    <link rel="stylesheet" href="/src/styles/app.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+</head>
+<body>
+    <header><div id="nav"></div></header>
+    <div id="sociais"></div>
+    <section class="container">
+        <div class="container__texto">
+            <h2>Nos acompanhe nas <span>redes sociais</span></h2>
+        </div>
+        <div class="container__imagem">
+            <div class="container__imagem--1">
+                <div class="container__imagem-1">
+                    <img src="/src/assets/img/multiple/redes-sociais/imagem-1.png" alt="Taylor Swift instalando roteador">
+                </div>
+                <div class="container__imagem-2">
+                    <img src="/src/assets/img/multiple/redes-sociais/imagem-2.png" alt="Taylor Swift atendendo clientes">
+                </div>
+            </div>
+            <div class="container__imagem-3">
+                <img src="/src/assets/img/multiple/redes-sociais/imagem-3.png" alt="Taylor Swift recebendo prêmio">
+            </div>
+        </div>
+    </section>
+    <div id="atendimento"></div>
+    <div id="app"></div>
+    <footer><div id="footer"></div></footer>
+    <script src="../src/scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "/components/nav.html")
+        carregarComponente("#sociais", "/components/sociais.html")
+        carregarComponente("#atendimento", "/components/atendimento.html")
+        carregarComponente("#app", "/components/app.html")
+        carregarComponente("#footer", "/components/footer.html")
+    </script>
+</body>
+</html>

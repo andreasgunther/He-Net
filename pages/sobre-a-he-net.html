@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He-Net</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/multiple/sobre-a-he-net.css">
+    <link rel="stylesheet" href="/src/styles/nav.css">
+    <link rel="stylesheet" href="/src/styles/atendimento.css">
+    <link rel="stylesheet" href="/src/styles/app.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+</head>
+<body>
+    <header><div id="nav"></div></header>
+    <div class="title">
+        <h1>Sobre <span>nós</span></h1>
+    </div>
+    <section class="cards">
+        <div class="cards__card-1">
+            <h3>Maior provedor de banda larga da bahia</h3>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/brasil.png" alt="Silhueta do Brasil">
+        </div>
+        <div class="cards__card-2">
+            <h3>Uma das melhores empresas para se trabalhar</h3>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/trabalhar.png" alt="Banner Ótimo Lugar para Trabalhar">
+        </div>
+        <div class="cards__card-3">
+            <h3>Presente em mais de 90 mil lares baianos</h3>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/casa.png" alt="Casa conectada">
+        </div>
+    </section>
+    <section class="historia">
+        <div class="historia__banner">
+            <img src="/src/assets/img/multiple/sobre-a-he-net/banner-2.png" alt="CEO da He-Net recebendo prêmio">
+        </div>
+        <div class="historia__texto">
+            <h2>História de sucesso</h2>
+            <p>
+                Qual é a fórmula do sucesso? Essa é uma pergunta para a qual dez em cada dez pessoas gostariam de obter a resposta. Com mais de duas décadas de atuação no mercado de telecomunicações, a HE-NET pode dizer, sem presunção alguma, que uma HISTÓRIA DE SUCESSO é o resultado de uma equação que envolve trabalho árduo, perseverança, amor pelo que se faz e muita, muita fibra. Não de forma isolada, mas por meio de VÍNCULOS SÓLIDOS com pessoas e empresas alinhadas com o mesmo objetivo: oferecer uma experiência única de conectividade nos âmbitos corporativo e residencial. Quando esse ecossistema funciona de maneira harmoniosa, por meio de processos claros, bem definidos, inteiramente voltados para o cliente, o resultado é o sucesso. Sucesso para a HE-NET é a plena satisfação dos seus clientes. É com essa mentalidade que trabalhamos desde o início da nossa história, em 2004. Essa é a nossa fórmula, é a nossa busca incessante, é o que nos move: oferecer sempre uma CONEXÃO DO SEU JEITO.
+            </p>
+        </div>
+    </section>
+    <section class="atributos">
+        <div class="atributos__column-1">
+            <h2>Visão</h2>
+            <p>Ser a melhor empresa de telecomunicações no Estado da Bahia para trabalhar, contratar e investir.</p>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/icone-visao.png" alt="Icone Ilustrativo 1">
+        </div>
+        <div class="atributos__column-2">
+            <h2>Missão</h2>
+            <p>Proporcionar felicidade aos clientes com conectividade.</p>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/icone-missao.png" alt="Icone Ilustrativo 2">
+        </div>
+        <div class="atributos__column-3">
+            <h2>Valores</h2>
+            <p>Planejar e executar com agilidade e inovação; Compreender e atender as necessidades dos clientes.</p>
+            <img src="/src/assets/img/multiple/sobre-a-he-net/icone-valores.png" alt="Icone Ilustrativo 3">
+        </div>
+    </section>
+    <div id="atendimento"></div>
+    <div id="app"></div>
+    <footer><div id="footer"></div></footer>
+    <script src="../src/scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "/components/nav.html")
+        carregarComponente("#atendimento", "/components/atendimento.html")
+        carregarComponente("#app", "/components/app.html")
+        carregarComponente("#footer", "/components/footer.html")
+    </script>
+</body>
+</html>

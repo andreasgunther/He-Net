@@ -1,0 +1,213 @@
+
+body {
+    background-color: var(--primary-color);
+}
+
+.title h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.title h1 span {
+    color: var(--secondary-color);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    gap: 6rem;
+    color: white;
+}
+
+.cards h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    justify-content: flex-start;
+}
+
+.cards p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cards__card-1, .cards__card-2, .cards__card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-evenly;
+    background-color: #282828;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.painel__texto {
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.painel__texto span {
+    color: var(--secondary-color);
+}
+
+.painel__imagens {
+    display: flex;
+    max-width: 100%;
+}
+
+.painel__imagens img {
+    max-width: 50%;
+}
+
+.atributos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    padding: 5rem;
+    color: white;
+    background: linear-gradient(180deg, rgb(0, 200, 215, 1), rgb(255, 255, 255, 0));
+}
+
+.atributos span {
+    color: rgb(255, 181, 43);
+}
+
+.atributos h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.atributos p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    min-height: 8rem;
+    text-align: center;
+}
+
+.atributos img {
+    width: 40%;
+    align-self: center;
+}
+
+.atributos__column-1, .atributos__column-2, .atributos__column-3 {
+    display: flex;
+    max-width: 20%;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media screen and (max-width: 1660px) {
+    .atributos {
+        flex-direction: column;
+        padding: 4rem;
+        gap: 3rem;
+        min-width: 100%;
+        justify-self: center;
+    }
+
+    .atributos p {
+        min-height: auto;
+    }
+
+    .atributos img {
+        width: 8rem;
+        height: auto;
+        
+    }
+
+    .atributos__column-1, .atributos__column-2, .atributos__column-3 {
+        justify-content: center;
+        gap: 2rem;
+        background-color: var(--primary-color);
+        padding: 4rem;
+        border-radius: 30px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .painel__texto {
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        flex-direction: row;
+        margin-top: 2rem;
+        gap: 3rem;
+    }
+
+    .cards__card-1, .cards__card-2, .cards__card-3 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .cards {
+        flex-direction: column;
+        margin: 2rem;
+        gap: 2rem;
+    }
+
+    .cards__card-1, .cards__card-2, .cards__card-3 {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .painel__imagens {
+        flex-wrap: wrap;
+    }
+
+    .painel__imagens img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards__card-1, .cards__card-2, .cards__card-3 {
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        gap: 1.5rem;
+    }
+        
+    .atributos {
+        min-width: 90%;
+    }
+
+    .atributos__column-1, .atributos__column-2, .atributos__column-3 {
+        padding: 2rem;
+    }
+}

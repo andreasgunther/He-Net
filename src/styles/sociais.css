@@ -7,6 +7,7 @@
     gap: 6rem;
     color: var(--tertiary-color);
     font-family: var(--fonte);
+    margin: 3rem;
 }
 
 .sociais__titulo{
@@ -69,4 +70,51 @@
 
 .sociais__icones--laranja{
     background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1560px) {
+    .sociais {
+        text-align: center;
+    }
+
+    .sociais__titulo--laranja {
+        display: block;
+    }
+
+    .sociais__lista {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .sociais {
+        gap: 2rem;
+        margin: 1.4rem;
+    }
+
+    .sociais__titulo {
+        font-size: 1.1rem;
+    }
+
+    .sociais__titulo--laranja {
+        display: contents;
+    }
+
+    .sociais__lista{
+        gap: 2rem;
+    }
+
+    .sociais__lista h4 {
+        font-size: 1rem;
+    }
+
+    .sociais__icones--branco, .sociais__icones--laranja {
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+    
+    .sociais__lista img {
+        max-height: 5rem;
+        max-width: 5rem;
+    }
 }

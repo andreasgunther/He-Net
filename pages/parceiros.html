@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He-Net</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/multiple/parceiros.css">
+    <link rel="stylesheet" href="/src/styles/nav.css">
+    <link rel="stylesheet" href="/src/styles/atendimento.css">
+    <link rel="stylesheet" href="/src/styles/app.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+</head>
+<body>
+    <header><div id="nav"></div></header>
+    <div class="title">
+        <h1>EMPRESAS QUE USAM A <span>INTERNET HE-NET</span></h1>
+    </div>
+    <section class="historia">
+        <div class="historia__banner">
+            <img src="/src/assets/img/multiple/parceiros/imagem-1.png" alt="CEO da He-Net recebendo prêmio">
+        </div>
+        <div class="historia__texto">
+            <h2>HE-NET: A Escolha das Gigantes da Tecnologia</h2>
+            <p>
+                Em um cenário cada vez mais competitivo, onde a velocidade e a confiabilidade da conexão são cruciais, a HE-NET se destaca como a fornecedora de internet preferida por algumas das maiores empresas do mundo. Com sede na Bahia e atuação nacional, a HE-NET tem conquistado espaço não apenas entre consumidores individuais, mas também entre corporações de peso.
+                Empresas como Google, Amazon, Spotify e até mesmo unidades da Microsoft no Brasil têm escolhido a HE-NET como parceira estratégica para garantir conectividade de alto desempenho em suas operações locais. Segundo fontes internas, a estabilidade da rede, o suporte técnico ágil e a infraestrutura robusta foram fatores decisivos para essa escolha.
+            </p>
+        </div>
+    </section>
+    <section class="empresas">
+        <div class="empresas__texto">
+            <h2>
+                "A HE-NET nos surpreendeu com sua capacidade de atender demandas complexas com eficiência e segurança. É raro encontrar um provedor regional com padrão internacional de qualidade" — teria dito um executivo da Google Brasil em uma conferência fictícia sobre inovação digital.
+            </h2>
+        </div>
+        <div class="empresas__icones">
+            <img src="/src/assets/img/multiple/parceiros/imagem-2.png" alt="Icone Google">
+            <img src="/src/assets/img/multiple/parceiros/imagem-3.png" alt="Icone Tesla">
+            <img src="/src/assets/img/multiple/parceiros/imagem-4.png" alt="Icone Amazon">
+        </div>
+    </section>
+    <div id="atendimento"></div>
+    <div id="app"></div>
+    <footer><div id="footer"></div></footer>
+    <script src="../src/scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "/components/nav.html")
+        carregarComponente("#atendimento", "/components/atendimento.html")
+        carregarComponente("#app", "/components/app.html")
+        carregarComponente("#footer", "/components/footer.html")
+    </script>
+</body>
+</html>

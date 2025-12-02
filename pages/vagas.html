@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He-Net</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/multiple/vagas.css">
+    <link rel="stylesheet" href="/src/styles/nav.css">
+    <link rel="stylesheet" href="/src/styles/atendimento.css">
+    <link rel="stylesheet" href="/src/styles/app.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+</head>
+<body>
+    <header><div id="nav"></div></header>
+    <div class="title">
+        <h1>TRABALHE <span>CONOSCO</span></h1>
+    </div>
+    <section class="cards">
+        <div class="cards__card-1">
+            <h3>💼 Analista de Suporte Técnico</h3>
+            <p>
+                Atendimento ao cliente via telefone e presencial, resolução de problemas de conexão e configuração de equipamentos de rede.
+            </p>
+        </div>
+        <div class="cards__card-2">
+            <h3>🧠 Especialista em Marketing Digital</h3>
+            <p>
+                Criação de campanhas online, gestão de redes sociais e análise de métricas para fortalecer a presença da HE-NET no ambiente digital.
+            </p>
+        </div>
+        <div class="cards__card-3">
+            <h3>🛠️ Técnico de Instalação de Internet</h3>
+            <p>
+                Instalação e manutenção de redes de fibra óptica, configuração de roteadores e suporte técnico em campo.
+            </p>
+        </div>
+    </section>
+    <section class="painel">
+        <div class="painel__texto">
+            <h2>UM AMBIENTE <span>DIFERENCIADO</span></h2>
+        </div>
+        <div class="painel__imagens">
+            <img src="/src/assets/img/multiple/vagas/imagem-1.png" alt="Equipe no escritório">
+            <img src="/src/assets/img/multiple/vagas/imagem-2.png" alt="Equipe no campo">
+        </div>
+    </section>
+    <section class="atributos">
+        <div class="atributos__column-1">
+            <h2>Renumeração <span>Justa</span></h2>
+            <p>Salários compatíveis com o mercado e bônus por desempenho. <span>Valorizamos seu talento</span> desde o primeiro dia.</p>
+            <img src="/src/assets/img/multiple/vagas/atributos-1.png" alt="Icone Ilustrativo 1">
+        </div>
+        <div class="atributos__column-2">
+            <h2>Reconhecimento <span>Real</span></h2>
+            <p>Programas internos de destaque, premiações e valorização contínua do <span>esforço individual e coletivo</span>.</p>
+            <img src="/src/assets/img/multiple/vagas/atributos-2.png" alt="Icone Ilustrativo 2">
+        </div>
+        <div class="atributos__column-3">
+            <h2>Crescimento <span>Profissional</span></h2>
+            <p>Trilhas de carreira, treinamentos e oportunidades reais de <span>evolução dentro da empresa</span>.</p>
+            <img src="/src/assets/img/multiple/vagas/atributos-3.png" alt="Icone Ilustrativo 3">
+        </div>
+    </section>
+    <div id="atendimento"></div>
+    <div id="app"></div>
+    <footer><div id="footer"></div></footer>
+    <script src="../src/scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "/components/nav.html")
+        carregarComponente("#atendimento", "/components/atendimento.html")
+        carregarComponente("#app", "/components/app.html")
+        carregarComponente("#footer", "/components/footer.html")
+    </script>
+</body>
+</html>
