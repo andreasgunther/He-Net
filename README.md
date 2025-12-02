@@ -1,4 +1,4 @@
-# 🌐 He-Net: Soluções em Conectividade
+# 🌐 He-Net
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -16,27 +16,30 @@ Este repositório contém o código-fonte do site desenvolvido para uma empresa 
 
 ## 🎯 Objetivos e Foco do Projeto
 
-Este projeto vai além da codificação simples; ele é um exercício prático de **User Experience (UX)** e **Engenharia de Software**. Nossos pilares principais foram:
+Além do código, este projeto é um exercício prático de **User Experience (UX)** e **Engenharia de Software**. Os pilares principais foram:
 
 1.  **Estruturação Semântica:**
-    * Uso das tags semânticas do HTML5 (`<header>`, `<nav>`, `<section>`, `<footer>`) para garantir um código limpo, acessível para leitores de tela e otimizado para SEO (*Search Engine Optimization*).
+    * Uso das tags semânticas do HTML5 (`<header>`, `<nav>`, `<section>`, `<footer>`) para garantir um código limpo e otimizado para SEO (*Search Engine Optimization*).
 
 2.  **Fidelidade ao Design:**
     * Transposição pixel-perfect do protótipo para o código, respeitando espaçamentos, tipografia e paleta de cores definidos na etapa de design.
 
-## 🔗 Acesse o Projeto Online
+3.  **Responsividade:**
+    * Aplicação da regra CSS `@media` para adaptar os elementos de acordo a largura da tela.
 
-O site está hospedado e ativo através do GitHub Pages. Você pode testar a navegação clicando no link abaixo:
+## 🔗 Projeto Online
 
-### 👉 **[Clique aqui para visitar o site da He-Net](https://andreasgunther.github.io/He-Net/)**
+O site está hospedado e ativo através do GitHub Pages. Pode-se testar a navegação clicando no link abaixo:
+
+👉 **[He-Net](https://andreasgunther.github.io/He-Net/)**
 
 ## 🎨 Design e Metodologia
 
 ### Prototipagem (Figma)
-Antes da codificação, todo o layout foi desenhado no **Figma**. A estrutura do código HTML segue rigorosamente a hierarquia de elementos definida na fase de design.
+Antes da codificação, todo o layout foi desenhado no **Figma**. A estrutura do código HTML segue a hierarquia de elementos definida na fase de design.
 
 ### Organização do CSS (BEM)
-Para garantir a legibilidade, escalabilidade e facilidade de manutenção do código, utilizamos a metodologia **BEM (*Block Element Modifier*)** na nomenclatura das classes CSS.
+Para garantir a legibilidade e facilidade de manutenção do código, foi ultilizada a metodologia **BEM (*Block Element Modifier*)** na nomenclatura das classes CSS.
 
 ## 📸 Galeria do Projeto
 
