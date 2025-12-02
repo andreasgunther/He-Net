@@ -40,21 +40,41 @@ Para garantir a legibilidade, escalabilidade e facilidade de manutenção do có
 
 ## 📸 Galeria do Projeto
 
-Abaixo estão algumas capturas de tela das principais seções do site desenvolvido:
+Abaixo estão algumas capturas de tela dos principais componentes do site desenvolvido:
 
-### 1. Página Inicial (Home)
-> A vitrine da empresa, desenvolvida fielmente ao protótipo.
-![Home](./assets/prints/print_home.png)
+| Planos de Internet                     |
+| -------------------------------------- |
+| <img src="/src/assets/prints/planos.png" /> |
 
-### 2. Planos de Internet
-> Tabela de preços e cards de serviços.
-![Planos](./assets/prints/print_planos.png)
+<br/>
 
-### 3. Sobre a He-Net
-> Informações de contato e história da empresa.
-![Contato](./assets/prints/print_sobre.png)
+| Sobre o App                       |
+| --------------------------------- |
+| <img src="/src/assets/prints/app.png" /> |
 
-*(Observação: Adicionar os prints na pasta 'assets' do projeto)*
+<br/>
+
+| História da Empresa                  |
+| ------------------------------------ |
+| <img src="/src/assets/prints/historia.png" /> |
+
+<br/>
+
+| Atributos e Valores                 |
+| ----------------------------------- |
+| <img src="/src/assets/prints/atributos.png" /> |
+
+<br/>
+
+| Informações de Contato                 |
+| -------------------------------------- |
+| <img src="/src/assets/prints/atendimento.png" /> |
+
+<br/>
+
+| Empresas que Apoiam                    |
+| -------------------------------------- |
+| <img src="/src/assets/prints/icones-empresas.png" /> |
 
 ## 🛠️ Tecnologias Utilizadas
 
