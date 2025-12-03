@@ -1,25 +1,23 @@
-.nav{
-    font-family: var(--fonte);
-}
 
 .nav-1 {
     background-color: var(--primary-color-2);
     text-align: right;
-    padding: 5px;
-    padding-right: 40px;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-1 img {
-    width: 14px;
+    width: 1rem;
     height: auto;
 }
 
 .nav-1__a {
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .nav-2 {
@@ -29,22 +27,98 @@
     background-color: var(--secondary-color);
     text-align: center;
     padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
 }
 
 .nav-2 img {
-    width: 140px;
-    height: auto;
+    width: 8rem;
 }
 
-.nav-2__a {
-    font-size: 14px;
+.nav-2__a-1, .nav-2__a-2, .nav-2__a-3, .nav-2__a-4, .nav-2__a-5, .nav-2__a-6 {
+    font-size: 0.9rem;
     font-weight: bold;
     color: #ffffff;
+    padding: 1rem;
     text-decoration: none;
-    padding: 15px;
+}
+
+.nav-2__button {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-2__button img {
+    filter: invert(100%);
+    width: 8%;
+    align-items: end;
+}
+
+.nav-2__mobile {
+    display: none;
+}
+
+.nav-2__mobile ul {
+    list-style: none;
+}
+
+.nav-2__mobile a {
+    text-decoration: none;
+}
+
+.nav-3 {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-3 img {
-    width: 100%;
-    height: auto;
+    width: 95%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 880px){
+    .nav-1 {
+        text-align: center;
+        padding-inline: 0.2rem;
+    }
+
+    .nav-1 a {
+        font-size: 0.6rem;
+    }
+
+    .nav-2 {
+        justify-content: space-between;
+        padding-inline: 2rem;
+    }
+
+    .nav-2__button {
+        display: flex;
+        justify-content: end;
+        min-width: 10px;
+    }
+
+    .nav-2__button img {
+        width: 30px;
+    }
+
+    .nav-2__a-2, .nav-2__a-3, .nav-2__a-4, .nav-2__a-5, .nav-2__a-6 {
+        display: none;
+    }
+
+    .nav-2__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 4%;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        background: var(--primary-color-2);
+    }
+
+    .nav-2__mobile li{
+        text-decoration: none;
+    }
 }
