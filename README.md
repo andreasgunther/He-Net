@@ -29,9 +29,9 @@ Além do código, este projeto é um exercício prático de **User Experience (U
 
 ## 🔗 Projeto Online
 
-O site está hospedado e ativo através do GitHub Pages. Pode-se testar a navegação clicando no link abaixo:
+O site está hospedado e ativo através do Vercel. Pode-se testar a navegação clicando no link abaixo:
 
-👉 **[He-Net](https://andreasgunther.github.io/He-Net/)**
+👉 **[He-Net](https://he-net.vercel.app/)**
 
 ## 🎨 Design e Metodologia
 
