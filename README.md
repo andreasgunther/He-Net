@@ -4,13 +4,12 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
 ![Contribuidores](https://img.shields.io/badge/Contributors-2-purple?style=flat-square)
 ![Disciplina](https://img.shields.io/badge/Disciplina-IHM-orange?style=flat-square)
 ![Tipo](https://img.shields.io/badge/Projeto-Acadêmico-blueviolet?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
-![Licença](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?style=flat-square&logo=github)
+![Status](https://img.shields.io/badge/Status-Concluído-green?style=flat-square)
+![Licença](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![Deploy](https://img.shields.io/badge/Deploy-Vercel-brown?style=flat-square&logo=github)
 
 Este repositório contém o código-fonte do site desenvolvido para uma empresa provedora de internet. O projeto foi desenvolvido como requisito avaliativo para a disciplina de **Interface Homem-Máquina (IHM)**.
 
