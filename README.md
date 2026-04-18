@@ -13,7 +13,7 @@
 
 Este repositório contém o código-fonte do site desenvolvido para uma empresa provedora de internet. O projeto foi desenvolvido como requisito avaliativo para a disciplina de **Interface Homem-Máquina (IHM)**.
 
-## 🎯 Objetivos
+## 🎯 Objetivos do Projeto
 
 Além do código, este projeto é um exercício prático de **User Experience (UX)** e **Engenharia de Software**. Os pilares principais foram:
 
