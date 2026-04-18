@@ -4,7 +4,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
 ![Contribuidores](https://img.shields.io/badge/Contributors-2-purple?style=flat-square)
 ![Disciplina](https://img.shields.io/badge/Disciplina-IHM-orange?style=flat-square)
 ![Tipo](https://img.shields.io/badge/Projeto-Acadêmico-blueviolet?style=flat-square)
@@ -14,7 +13,7 @@
 
 Este repositório contém o código-fonte do site desenvolvido para uma empresa provedora de internet. O projeto foi desenvolvido como requisito avaliativo para a disciplina de **Interface Homem-Máquina (IHM)**.
 
-## 🎯 Objetivos e Foco do Projeto
+## 🎯 Objetivos do Projeto
 
 Além do código, este projeto é um exercício prático de **User Experience (UX)** e **Engenharia de Software**. Os pilares principais foram:
 
